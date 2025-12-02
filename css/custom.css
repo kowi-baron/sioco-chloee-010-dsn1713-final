@@ -1,7 +1,7 @@
 
 /*Header*/
 .main-nav {
-  background-color: #E5C9D9;
+  background-color: #E7D4E6;
   padding: 15px 0;
 }
 
@@ -24,14 +24,23 @@
  padding-left: 15px;
 }
 
-.main-nav .nav-icons a {
-  font-size: 1.3rem;
+.main-nav a {
+  font-size: 1rem;
   margin-left: 15px;
   color: #000;
 }
 
 .main-nav .navbar-brand img {
   max-height: 45px;
+}
+
+.navbar-nav .nav-link .nav-icon {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
 }
 
 
@@ -45,11 +54,24 @@
   background-size: cover;
 }
 
+.hero-text {
+  position: relative;
+  z-index: 2;
+}
+
+#hero .btn {
+  background-color: #70367B;  
+  border-color: #70367B;
+  color: #ffff;
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-weight: 500;
+}
 
 
 /*Promo banners*/
 .promo-banner {
-  background-color: #5E1F6E; 
+  background-color: #421052; 
   padding: 10px 0;
 }
 
@@ -62,7 +84,7 @@
 
 /*About us section*/
 .about-section {
-  background-color: #742C7E;
+  background-color: #70367B;
   padding: 20px 0;
 }
 
