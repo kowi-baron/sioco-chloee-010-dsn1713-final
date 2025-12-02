@@ -31,7 +31,7 @@
 }
 
 .main-nav .navbar-brand img {
-  max-height: 45px;
+  max-height: 50px;
 }
 
 .navbar-nav .nav-link .nav-icon {
@@ -72,13 +72,13 @@
 /*Promo banners*/
 .promo-banner {
   background-color: #421052; 
-  padding: 10px 0;
+  padding: 15px 0;
 }
 
 .promo-banner p {
    color: white;
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 2rem;
+    font-weight: 100;
     letter-spacing: 0.5px;
 }
 
@@ -101,4 +101,21 @@
   border-radius: 30px;
   padding: 10px 25px;
   font-weight: 500;
+}
+
+
+/*Footer*/
+#footer {
+background-color: #E7D4E6;
+padding: 3rem;
+padding-bottom: 3rem;
+}
+
+.footer-logo {
+  width: 220px;
+}
+
+.footer-icon {
+  width: 30px;
+  height: 30px;
 }
