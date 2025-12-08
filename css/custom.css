@@ -119,3 +119,12 @@ padding-bottom: 3rem;
   width: 30px;
   height: 30px;
 }
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icons .footer-links {
+  justify-content: flex-end;
+}
