@@ -1,4 +1,8 @@
 
+body {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
 /*Header*/
 .main-nav {
   background-color: #E7D4E6;
@@ -105,7 +109,6 @@
 
 
 /*Latest Arrivals*/
-
 #cards .card {
   border: none;
   border-radius: 10px;
